@@ -66,11 +66,9 @@ void loop() {
 # Send Sensor Data
 
 restClient.send_sensor_datapoint(
-uuid: 'the serial numbe of uuid', # [required]in here, you put the uuid of the sensor
-machine_id: id number of the machine, # [optional] in here, you put the machine id number
-sensor_id : id number of the machine, # [optional] in here , you put the sensor id number
-sensor_name: 'the sensor name', # [required] in here, you put the sensor name
-sensor_value: value of the sensor # [required] in here, you put the sensor value
+id: 'Tagname / reference', # [required]in here, you put the tagname/reference 
+t: timestamp, # [optional] in here, you put the timestamp in seconds
+v : value of the sensor, # [required] in here, you put the sensor value
 );
 # Send Energy Data
 
