@@ -1,6 +1,6 @@
 # Leanios-ot-api-cpp
 Leanios REST  Client for Sensors, counters and energy meters. Connect your sensors easily with Leanios!
-This is a cpp library that provides  REST API clients for sending data from 3 OT to a server. The library allows the client to choose which method to use or use both at the same time.
+This is a cpp library that provides  REST API clients for sending data from 3 OT to a server. 
 # installation of the needed libraries : 
 # httpclient and Arduinojson
 Open Arduino IDE.
